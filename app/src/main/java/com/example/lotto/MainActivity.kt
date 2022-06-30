@@ -15,7 +15,7 @@ import com.example.lotto.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
-
+    private val TextView = "텍스트를 위한 의미없는 변수"
     private val numberTextList: List<TextView> by lazy {
         listOf<TextView>(
             binding.num1Tv,
